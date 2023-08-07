@@ -10,7 +10,7 @@ namespace QLYDETAI
 {
     public class Database
     {
-        private string connectionString = @"Data Source =.; Initial Catalog = QLDETAI; Integrated Security = True;";
+        private string connectionString = @"Server=DESKTOP-8G30FMI\MSSQLSERVER2;Database=QLDETAI;User Id=sa;Password=thanhphuong1110;";
         private SqlConnection conn;
         private DataTable dt;
         private SqlCommand cmd;

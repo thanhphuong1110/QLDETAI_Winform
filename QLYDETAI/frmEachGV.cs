@@ -82,7 +82,7 @@ namespace QLYDETAI
             List<CustomParameter> lstPara = new List<CustomParameter>();
             if (string.IsNullOrEmpty(magv))
             {
-                sql = "AddNewGv";
+                sql = "AddNewGV";
                 lstPara.Add(new CustomParameter()
                 {
                     key = "@MaGV",
@@ -147,7 +147,7 @@ namespace QLYDETAI
                 }
                 this.Dispose();
             }
-            else
+            else if (rs == 0)
             {
                 MessageBox.Show("Thực thi thất bại");
             }
@@ -168,11 +168,12 @@ namespace QLYDETAI
                 value = magv
             });
             var rs = new Database().ExeCute(sql, lstPara);
-            if (rs==1)
+            if (rs == 1)
             {
                 MessageBox.Show("Xóa dữ liệu thành công");
                 this.Dispose(true);
-            } else
+            }
+            else
             {
                 MessageBox.Show("Thực thi thất bại");
             }

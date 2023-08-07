@@ -54,18 +54,19 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
-            label1.Location = new Point(12, 42);
+            label1.Location = new Point(14, 56);
             label1.Name = "label1";
-            label1.Size = new Size(95, 20);
+            label1.Size = new Size(121, 25);
             label1.TabIndex = 0;
             label1.Text = "Mã giáo viên";
             // 
             // txtMAGV
             // 
             txtMAGV.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
-            txtMAGV.Location = new Point(113, 39);
+            txtMAGV.Location = new Point(129, 52);
+            txtMAGV.Margin = new Padding(3, 4, 3, 4);
             txtMAGV.Name = "txtMAGV";
-            txtMAGV.Size = new Size(159, 27);
+            txtMAGV.Size = new Size(181, 32);
             txtMAGV.TabIndex = 1;
             txtMAGV.TextChanged += textBox1_TextChanged;
             // 
@@ -73,45 +74,47 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
-            label2.Location = new Point(12, 174);
+            label2.Location = new Point(14, 232);
             label2.Name = "label2";
-            label2.Size = new Size(74, 20);
+            label2.Size = new Size(96, 25);
             label2.TabIndex = 2;
             label2.Text = "Ngày sinh";
             // 
             // txtHOTEN
             // 
             txtHOTEN.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
-            txtHOTEN.Location = new Point(113, 72);
+            txtHOTEN.Location = new Point(129, 96);
+            txtHOTEN.Margin = new Padding(3, 4, 3, 4);
             txtHOTEN.Name = "txtHOTEN";
-            txtHOTEN.Size = new Size(159, 27);
+            txtHOTEN.Size = new Size(181, 32);
             txtHOTEN.TabIndex = 2;
             // 
             // label3
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
-            label3.Location = new Point(12, 75);
+            label3.Location = new Point(14, 100);
             label3.Name = "label3";
-            label3.Size = new Size(54, 20);
+            label3.Size = new Size(68, 25);
             label3.TabIndex = 4;
             label3.Text = "Họ tên";
             // 
             // txtLUONG
             // 
             txtLUONG.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
-            txtLUONG.Location = new Point(113, 105);
+            txtLUONG.Location = new Point(129, 140);
+            txtLUONG.Margin = new Padding(3, 4, 3, 4);
             txtLUONG.Name = "txtLUONG";
-            txtLUONG.Size = new Size(159, 27);
+            txtLUONG.Size = new Size(181, 32);
             txtLUONG.TabIndex = 3;
             // 
             // label4
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
-            label4.Location = new Point(12, 108);
+            label4.Location = new Point(14, 144);
             label4.Name = "label4";
-            label4.Size = new Size(51, 20);
+            label4.Size = new Size(65, 25);
             label4.TabIndex = 6;
             label4.Text = "Lương";
             // 
@@ -119,54 +122,57 @@
             // 
             label5.AutoSize = true;
             label5.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
-            label5.Location = new Point(12, 141);
+            label5.Location = new Point(14, 188);
             label5.Name = "label5";
-            label5.Size = new Size(65, 20);
+            label5.Size = new Size(84, 25);
             label5.TabIndex = 8;
             label5.Text = "Giới tính";
             // 
             // txtAddr
             // 
             txtAddr.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
-            txtAddr.Location = new Point(113, 204);
+            txtAddr.Location = new Point(129, 272);
+            txtAddr.Margin = new Padding(3, 4, 3, 4);
             txtAddr.Name = "txtAddr";
-            txtAddr.Size = new Size(159, 27);
+            txtAddr.Size = new Size(181, 32);
             txtAddr.TabIndex = 7;
             // 
             // label6
             // 
             label6.AutoSize = true;
             label6.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
-            label6.Location = new Point(12, 207);
+            label6.Location = new Point(14, 276);
             label6.Name = "label6";
-            label6.Size = new Size(55, 20);
+            label6.Size = new Size(70, 25);
             label6.TabIndex = 10;
             label6.Text = "Địa chỉ";
             // 
             // txtGVQLCM
             // 
             txtGVQLCM.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
-            txtGVQLCM.Location = new Point(113, 237);
+            txtGVQLCM.Location = new Point(129, 316);
+            txtGVQLCM.Margin = new Padding(3, 4, 3, 4);
             txtGVQLCM.Name = "txtGVQLCM";
-            txtGVQLCM.Size = new Size(159, 27);
+            txtGVQLCM.Size = new Size(181, 32);
             txtGVQLCM.TabIndex = 8;
             // 
             // label7
             // 
             label7.AutoSize = true;
             label7.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
-            label7.Location = new Point(12, 240);
+            label7.Location = new Point(14, 320);
             label7.Name = "label7";
-            label7.Size = new Size(67, 20);
+            label7.Size = new Size(88, 25);
             label7.TabIndex = 12;
             label7.Text = "GVQLCM";
             // 
             // checkNu
             // 
             checkNu.AutoSize = true;
-            checkNu.Location = new Point(113, 141);
+            checkNu.Location = new Point(129, 188);
+            checkNu.Margin = new Padding(3, 4, 3, 4);
             checkNu.Name = "checkNu";
-            checkNu.Size = new Size(42, 19);
+            checkNu.Size = new Size(51, 24);
             checkNu.TabIndex = 4;
             checkNu.Text = "Nữ";
             checkNu.UseVisualStyleBackColor = true;
@@ -174,9 +180,10 @@
             // checkNam
             // 
             checkNam.AutoSize = true;
-            checkNam.Location = new Point(202, 141);
+            checkNam.Location = new Point(231, 188);
+            checkNam.Margin = new Padding(3, 4, 3, 4);
             checkNam.Name = "checkNam";
-            checkNam.Size = new Size(52, 19);
+            checkNam.Size = new Size(63, 24);
             checkNam.TabIndex = 5;
             checkNam.Text = "Nam";
             checkNam.UseVisualStyleBackColor = true;
@@ -184,18 +191,19 @@
             // txtMABM
             // 
             txtMABM.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
-            txtMABM.Location = new Point(113, 270);
+            txtMABM.Location = new Point(129, 360);
+            txtMABM.Margin = new Padding(3, 4, 3, 4);
             txtMABM.Name = "txtMABM";
-            txtMABM.Size = new Size(159, 27);
+            txtMABM.Size = new Size(181, 32);
             txtMABM.TabIndex = 9;
             // 
             // label8
             // 
             label8.AutoSize = true;
             label8.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
-            label8.Location = new Point(12, 273);
+            label8.Location = new Point(14, 364);
             label8.Name = "label8";
-            label8.Size = new Size(86, 20);
+            label8.Size = new Size(109, 25);
             label8.TabIndex = 16;
             label8.Text = "Mã bộ môn";
             // 
@@ -203,9 +211,10 @@
             // 
             saveBtn.AutoSize = true;
             saveBtn.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
-            saveBtn.Location = new Point(48, 321);
+            saveBtn.Location = new Point(55, 428);
+            saveBtn.Margin = new Padding(3, 4, 3, 4);
             saveBtn.Name = "saveBtn";
-            saveBtn.Size = new Size(75, 30);
+            saveBtn.Size = new Size(86, 40);
             saveBtn.TabIndex = 10;
             saveBtn.Text = "Save";
             saveBtn.UseVisualStyleBackColor = true;
@@ -215,9 +224,10 @@
             // 
             cancelBtn.AutoSize = true;
             cancelBtn.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
-            cancelBtn.Location = new Point(179, 321);
+            cancelBtn.Location = new Point(205, 428);
+            cancelBtn.Margin = new Padding(3, 4, 3, 4);
             cancelBtn.Name = "cancelBtn";
-            cancelBtn.Size = new Size(75, 30);
+            cancelBtn.Size = new Size(86, 40);
             cancelBtn.TabIndex = 11;
             cancelBtn.Text = "Cancel";
             cancelBtn.UseVisualStyleBackColor = true;
@@ -225,10 +235,11 @@
             // 
             // mtbNgsinh
             // 
-            mtbNgsinh.Location = new Point(113, 171);
+            mtbNgsinh.Location = new Point(129, 228);
+            mtbNgsinh.Margin = new Padding(3, 4, 3, 4);
             mtbNgsinh.Mask = "00/00/0000";
             mtbNgsinh.Name = "mtbNgsinh";
-            mtbNgsinh.Size = new Size(141, 23);
+            mtbNgsinh.Size = new Size(161, 27);
             mtbNgsinh.TabIndex = 6;
             mtbNgsinh.ValidatingType = typeof(DateTime);
             // 
@@ -236,9 +247,10 @@
             // 
             deleteBtn.AutoSize = true;
             deleteBtn.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
-            deleteBtn.Location = new Point(297, 321);
+            deleteBtn.Location = new Point(339, 428);
+            deleteBtn.Margin = new Padding(3, 4, 3, 4);
             deleteBtn.Name = "deleteBtn";
-            deleteBtn.Size = new Size(75, 30);
+            deleteBtn.Size = new Size(86, 40);
             deleteBtn.TabIndex = 17;
             deleteBtn.Text = "Delete";
             deleteBtn.UseVisualStyleBackColor = true;
@@ -246,9 +258,9 @@
             // 
             // frmEachGV
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(409, 388);
+            ClientSize = new Size(467, 517);
             Controls.Add(deleteBtn);
             Controls.Add(mtbNgsinh);
             Controls.Add(cancelBtn);
@@ -269,7 +281,9 @@
             Controls.Add(label2);
             Controls.Add(txtMAGV);
             Controls.Add(label1);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "frmEachGV";
+            Text = "you";
             Load += frmEachGV_Load;
             ResumeLayout(false);
             PerformLayout();
